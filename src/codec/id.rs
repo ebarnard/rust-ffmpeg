@@ -355,7 +355,7 @@ pub enum Id {
 	MLP,
 	GSM_MS,
 	ATRAC3,
-	#[cfg(feature = "voxware")]
+	#[cfg(feature = "ff_api_voxware")]
 	VOXWARE,
 	APE,
 	NELLYMOSER,
